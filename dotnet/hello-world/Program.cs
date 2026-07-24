@@ -1,4 +1,5 @@
 using MongoDB.Bson;
+using MongoDB.Bson.IO;
 using MongoDB.Driver;
 
 // A few sample product documents seeded by this app so you can run it
@@ -9,21 +10,21 @@ var sampleProducts = new[]
     {
         { "name", "Wireless Mouse" },
         { "category", "Electronics" },
-        { "price", 24.99 },
+        { "price", 24.99m },
         { "tags", new BsonArray { "wireless", "usb", "ergonomic" } }
     },
     new BsonDocument
     {
         { "name", "Standing Desk" },
         { "category", "Furniture" },
-        { "price", 349.99 },
+        { "price", 349.99m },
         { "tags", new BsonArray { "adjustable", "office" } }
     },
     new BsonDocument
     {
         { "name", "Noise-Cancelling Headphones" },
         { "category", "Electronics" },
-        { "price", 199.99 },
+        { "price", 199.99m },
         { "tags", new BsonArray { "bluetooth", "wireless", "over-ear" } }
     }
 };
@@ -41,4 +42,4 @@ products.InsertMany(sampleProducts);
 
 var filter = Builders<BsonDocument>.Filter.Eq("name", "Wireless Mouse");
 var product = products.Find(filter).FirstOrDefault();
-Console.WriteLine(product);
+Console.WriteLine(product.ToJson(new JsonWriterSettings { OutputMode = JsonOutputMode.Shell }));

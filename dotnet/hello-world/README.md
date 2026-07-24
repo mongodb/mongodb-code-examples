@@ -48,7 +48,7 @@ When you run the app, it inserts a few product documents into the
 `get_started.products` collection, then queries and prints one of them:
 
 ```
-{ "_id" : ObjectId("..."), "name" : "Wireless Mouse", "category" : "Electronics", "price" : 24.99, "tags" : ["wireless", "usb", "ergonomic"] }
+{ "_id" : ObjectId("..."), "name" : "Wireless Mouse", "category" : "Electronics", "price" : NumberDecimal("24.99"), "tags" : ["wireless", "usb", "ergonomic"] }
 ```
 
 You can run the app more than once. It clears the collection before
