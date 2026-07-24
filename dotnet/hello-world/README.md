@@ -10,7 +10,7 @@ Before you begin, complete the [Atlas Get Started guide](https://www.mongodb.com
 to create a free Atlas deployment and save your database user
 credentials.
 
-You also need the .NET SDK 6.0 or later installed in your development
+You also need the .NET SDK 10.0 or later installed in your development
 environment.
 
 ## Installation
