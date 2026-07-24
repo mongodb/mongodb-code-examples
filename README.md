@@ -6,6 +6,7 @@ includes its own setup instructions.
 
 ## Available Client Libraries
 
+- [.NET/C#](dotnet/hello-world/README.md)
 - [Node.js](node/hello-world/README.md)
 
 ## Prerequisites
