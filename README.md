@@ -8,6 +8,7 @@ includes its own setup instructions.
 
 - [.NET/C#](dotnet/hello-world/README.md)
 - [Node.js](node/hello-world/README.md)
+- [Python](python/hello-world/README.md)
 
 ## Prerequisites
 
