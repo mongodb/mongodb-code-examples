@@ -14,7 +14,7 @@ You also need the following components installed in your development environment
 
 - A C++17-compatible compiler
 - CMake 3.15 or later
-- The MongoDB C++ driver (mongocxx) 3.10 or later
+- The MongoDB C++ driver (mongocxx) 4.0 or later
 
 ## Installation
 

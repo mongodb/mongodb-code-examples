@@ -5,7 +5,7 @@ project(hello-world CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(mongocxx REQUIRED)
+find_package(mongocxx 4.0 REQUIRED)
 
 add_executable(hello-world main.cpp)
 
