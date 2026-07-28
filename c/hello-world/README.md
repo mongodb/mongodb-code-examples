@@ -14,7 +14,6 @@ You also need the following components installed in your development environment
 
 - CMake 3.15 or later
 - A C11-compatible compiler
-- [MongoDB C Driver](http://mongoc.org/libmongoc/current/installing.html) (libmongoc) 1.25 or later
 
 ## Installation
 
@@ -23,6 +22,10 @@ Clone this repository:
 ```bash
 git clone https://github.com/mongodb/mongodb-code-examples
 ```
+
+ Install the MongoDB C driver.  Follow the
+[C driver installation guide](https://www.mongodb.com/docs/languages/c/c-driver/current/get-started/)
+for your platform.
 
 Navigate into the `c/hello-world` project directory, then configure and
 build the project:
