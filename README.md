@@ -7,6 +7,8 @@ includes its own setup instructions.
 ## Available Client Libraries
 
 - [Go](go/hello-world/README.md)
+- [Java](java/hello-world/README.md)
+- [Java Reactive Streams](java-rs/hello-world/README.md)
 - [.NET/C#](dotnet/hello-world/README.md)
 - [Node.js](node/hello-world/README.md)
 - [Python](python/hello-world/README.md)
