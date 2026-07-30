@@ -27,6 +27,11 @@ Clone this repository:
 git clone https://github.com/mongodb/mongodb-code-examples
 ```
 
+Install the MongoDB Java Reactive Streams driver.  Follow the
+[Java Reactive Streams installation guide](https://www.mongodb.com/docs/languages/java/reactive-streams-driver/current/getting-started/)
+for your platform.
+
+
 Navigate into the `java-rs/hello-world` project directory and compile the
 application:
 
