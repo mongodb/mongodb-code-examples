@@ -13,7 +13,7 @@ includes its own setup instructions.
 - Hibernate
 - Kotlin Coroutine
 - Kotlin Sync
-- Java Reactive Streams
+- [Java Reactive Streams](java-rs/hello-world/README.md) 
 - Java Sync
 - [.NET/C#](dotnet/hello-world/README.md)
 - [Node.js](node/hello-world/README.md)
