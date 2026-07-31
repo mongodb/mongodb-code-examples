@@ -6,12 +6,22 @@ includes its own setup instructions.
 
 ## Available Client Libraries
 
+- C
+- C++
+- EF
 - [Go](go/hello-world/README.md)
-- [Java](java/hello-world/README.md)
-- [Java Reactive Streams](java-rs/hello-world/README.md)
+- Hibernate
+- Kotlin Coroutine
+- Kotlin Sync
+- [Java Reactive Streams](java-rs/hello-world/README.md) 
+- Java Sync
 - [.NET/C#](dotnet/hello-world/README.md)
 - [Node.js](node/hello-world/README.md)
+- PHP
 - [Python](python/hello-world/README.md)
+- Ruby
+- Rust
+- Scala
 
 ## Prerequisites
 
