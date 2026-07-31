@@ -7,7 +7,7 @@ includes its own setup instructions.
 ## Available Client Libraries
 
 - C
-- C++
+- [C++](cpp/hello-world/README.md)
 - EF
 - [Go](go/hello-world/README.md)
 - Hibernate
