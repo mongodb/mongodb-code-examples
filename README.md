@@ -11,7 +11,7 @@ includes its own setup instructions.
 - EF
 - [Go](go/hello-world/README.md)
 - Hibernate
-- Kotlin Coroutine
+- [Kotlin Coroutine](kotlin-coroutine/hello-world/README.md)
 - Kotlin Sync
 - Java Reactive Streams
 - Java Sync
