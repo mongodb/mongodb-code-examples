@@ -1,0 +1,10 @@
+{
+    "name": "mongodb/hello-world-php",
+    "description": "Get Started sample application for the MongoDB PHP library",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-mongodb": "^2.0",
+        "mongodb/mongodb": "^2.0"
+    }
+}
