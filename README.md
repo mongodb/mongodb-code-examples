@@ -6,7 +6,7 @@ includes its own setup instructions.
 
 ## Available Client Libraries
 
-- C
+- [C](c/hello-world/README.md)
 - C++
 - EF
 - [Go](go/hello-world/README.md)
