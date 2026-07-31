@@ -12,7 +12,7 @@ includes its own setup instructions.
 - [Go](go/hello-world/README.md)
 - Hibernate
 - Kotlin Coroutine
-- Kotlin Sync
+- [Kotlin Sync](kotlin-sync/hello-world/README.md)
 - Java Reactive Streams
 - Java Sync
 - [.NET/C#](dotnet/hello-world/README.md)
