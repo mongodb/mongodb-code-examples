@@ -17,7 +17,7 @@ includes its own setup instructions.
 - Java Sync
 - [.NET/C#](dotnet/hello-world/README.md)
 - [Node.js](node/hello-world/README.md)
-- PHP
+- [PHP](php/hello-world/README.md)
 - [Python](python/hello-world/README.md)
 - Ruby
 - Rust
