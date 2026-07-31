@@ -4,9 +4,6 @@ This sample application connects to a MongoDB deployment, seeds a small
 set of sample product documents, and retrieves one of them. Because the
 app inserts its own data, you don't need to load an external dataset.
 
-The app uses the MongoDB Kotlin Sync driver, which exposes the driver
-operations as blocking calls that return results directly.
-
 ## Prerequisites
 
 Before you begin, complete the [Atlas Get Started guide](https://www.mongodb.com/docs/get-started/)
