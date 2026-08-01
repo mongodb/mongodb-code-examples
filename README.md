@@ -19,7 +19,7 @@ includes its own setup instructions.
 - [Node.js](node/hello-world/README.md)
 - PHP
 - [Python](python/hello-world/README.md)
-- Ruby
+- [Ruby](ruby/hello-world/README.md)
 - Rust
 - Scala
 
